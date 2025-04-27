@@ -1,82 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Deep Patel</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fff;
-      color: #333;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      padding: 1rem 2rem;
-      align-items: center;
-      border-bottom: 1px solid #eee;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-      margin: 0;
-      padding: 0;
-    }
-    nav a {
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-    }
-    .hero {
-      text-align: center;
-      margin-top: 5rem;
-      padding: 0 1rem;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.25rem;
-      margin-bottom: 2rem;
-    }
-    .hero button {
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
-      color: white;
-      background-color: #007bff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .hero button:hover {
-      background-color: #0056b3;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Patel - Power Electronics Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+        .hero .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .hero button {
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            color: white;
+            background-color: #007acc;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f2f2f2;
+            color: #777;
+            margin-top: 4rem;
+        }
+    </style>
 </head>
 <body>
 
 <nav>
-  <div><strong>Deep Patel</strong></div>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#blog">Blog</a></li>
-    <li><a href="#resume">Resume</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+    <div><strong>Deep Patel</strong></div>
+    <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </div>
 </nav>
 
 <section class="hero">
-  <h1>Hi, I'm Deep Patel.</h1>
-  <p>Gold Medalist 🎓 | Power Electronics Engineer ⚡ | EV Enthusiast</p>
-  <p>Passionate about creating sustainable, efficient electronic systems.<br> 
-     Currently working on fast DC chargers and battery health monitoring projects.</p>
-  <a href="resume.pdf" download><button>Download Resume</button></a>
+    <h1>Hi, I'm Deep Patel.</h1>
+    <p class="tagline">Gold Medalist 🎓 | Power Electronics Engineer ⚡️ | EV Enthusiast</p>
+    <p>Passionate about creating sustainable, efficient electronic systems.<br>
+    Currently working on fast DC chargers and battery health monitoring projects.</p>
+    <button onclick="window.location.href='#resume'">Download Resume</button>
 </section>
+
+<footer>
+    <p>&copy; 2025 Deep Patel</p>
+</footer>
 
 </body>
 </html>
